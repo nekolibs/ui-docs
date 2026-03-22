@@ -76,7 +76,11 @@ import SizeGuidePage from './guides/modifiers/size/SizeGuidePage'
 import SpacingGuidePage from './guides/modifiers/spacing/SpacingGuidePage'
 import StatePresenterDocPage from './docs/state/statePresenter/StatePresenterDocPage'
 import StorageIntroGuidePage from './guides/storage/intro/StorageIntroGuidePage'
-import StylingGuidePage from './guides/modifiers/styling/StylingGuidePage'
+import BackgroundGuidePage from './guides/modifiers/background/BackgroundGuidePage'
+import BorderGuidePage from './guides/modifiers/border/BorderGuidePage'
+import ShadowGuidePage from './guides/modifiers/shadow/ShadowGuidePage'
+import PositionGuidePage from './guides/modifiers/position/PositionGuidePage'
+import OverflowGuidePage from './guides/modifiers/overflow/OverflowGuidePage'
 import SubmitButtonDocPage from './docs/form/submitButton/SubmitButtonDocPage'
 import SwitchDocPage from './docs/inputs/switch/SwitchDocPage'
 import TableDocPage from './docs/table/table/TableDocPage'
@@ -118,7 +122,11 @@ export default function AppRoutes() {
           <Route path="modifiersSpacing" element={<SpacingGuidePage />} />
           <Route path="modifiersLayout" element={<LayoutGuidePage />} />
           <Route path="modifiersSize" element={<SizeGuidePage />} />
-          <Route path="modifiersStyling" element={<StylingGuidePage />} />
+          <Route path="modifiersBackground" element={<BackgroundGuidePage />} />
+          <Route path="modifiersBorder" element={<BorderGuidePage />} />
+          <Route path="modifiersShadow" element={<ShadowGuidePage />} />
+          <Route path="modifiersPosition" element={<PositionGuidePage />} />
+          <Route path="modifiersOverflow" element={<OverflowGuidePage />} />
         </Route>
 
         <Route element={<DocsLayout />} path="docs">

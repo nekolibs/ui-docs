@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "packages": {
+    "@neko-os/charts": {
+      "signature": "753b4f2840fb1f821b437ce3e41a00bc",
+      "link": true,
+      "replaced": "^0.0.10"
+    },
+    "@neko-os/ui": {
+      "signature": "c1fb48cabe3202938d19abbd0baf8cb4",
+      "link": true,
+      "replaced": "^0.2.2"
+    }
+  }
+}

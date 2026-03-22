@@ -18,6 +18,8 @@ The library source code is located at:
 front/node_modules/@neko-os/ui/src/
 ```
 
+When yalc is set up for local development, `node_modules/@neko-os/ui` is a symlink to `front/.yalc/@neko-os/ui`. Both paths resolve to the same source. Check `front/.yalc/@neko-os/` for locally linked packages.
+
 Key folders:
 - `components/` - All UI components (View, Text, Button, etc.)
 - `modifiers/` - Modifier hooks (padding, margin, size, background, etc.)

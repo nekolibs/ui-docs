@@ -11,8 +11,8 @@
     "deploy": "vite build && cp dist/index.html dist/200.html && surge dist nekoui.surge.sh"
   },
   "dependencies": {
-    "@neko-os/charts": "^0.0.10",
-    "@neko-os/ui": "^0.2.2",
+    "@neko-os/charts": "link:.yalc/@neko-os/charts",
+    "@neko-os/ui": "link:.yalc/@neko-os/ui",
     "@remixicon/react": "^4.6.0",
     "dayjs": "1.11.18",
     "nanoid": "^5.1.5",
