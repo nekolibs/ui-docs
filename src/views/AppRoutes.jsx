@@ -1,16 +1,18 @@
 import { Route, Routes } from 'react-router'
 
 import AccordionDocPage from './docs/structure/accordion/AccordionDocPage'
-import ExamplesPage from './examples/ExamplesPage'
 import ActionsDrawerDocPage from './docs/actions/actionsDrawer/ActionsDrawerDocPage'
 import AlertDocPage from './docs/feedback/alert/AlertDocPage'
 import AnimatedTopBarDocPage from './docs/animations/animatedTopBar/AnimatedTopBarDocPage'
 import AnimatedViewDocPage from './docs/animations/animatedView/AnimatedViewDocPage'
 import AvatarDocPage from './docs/presentation/avatar/AvatarDocPage'
 import AvatarLabelDocPage from './docs/presentation/avatarLabel/AvatarLabelDocPage'
+import AvatarsGroupDocPage from './docs/presentation/avatarsGroup/AvatarsGroupDocPage'
+import BackgroundGuidePage from './guides/modifiers/background/BackgroundGuidePage'
 import BadgeDocPage from './docs/presentation/badge/BadgeDocPage'
 import BaseLayout from '../containers/layouts/BaseLayout'
 import BlurViewDocPage from './docs/structure/blurView/BlurViewDocPage'
+import BorderGuidePage from './guides/modifiers/border/BorderGuidePage'
 import BottomDrawerDocPage from './docs/modals/bottomDrawer/BottomDrawerDocPage'
 import BreadcrumbDocPage from './docs/actions/breadcrumb/BreadcrumbDocPage'
 import ButtonDocPage from './docs/actions/button/ButtonDocPage'
@@ -24,6 +26,10 @@ import DividerDocPage from './docs/helpers/divider/DividerDocPage'
 import DocsLayout from '../containers/layouts/DocsLayout'
 import DrawerDocPage from './docs/modals/drawer/DrawerDocPage'
 import DropdownDocPage from './docs/actions/dropdown/DropdownDocPage'
+import EditableDocPage from './docs/inputs/editable/EditableDocPage'
+import ExamplesPage from './examples/ExamplesPage'
+import FilterHandlerDocPage from './docs/filter/filterHandler/FilterHandlerDocPage'
+import FilterItemDocPage from './docs/filter/filterItem/FilterItemDocPage'
 import FlatListDocPage from './docs/list/flatList/FlatListDocPage'
 import FloatingButtonDocPage from './docs/actions/floatingButton/FloatingButtonDocPage'
 import FloatingMenuDocPage from './docs/actions/floatingMenu/FloatingMenuDocPage'
@@ -56,10 +62,16 @@ import ModalsRouterDocPage from './docs/modals/modalsRouter/ModalsRouterDocPage'
 import ModifiersIntroGuidePage from './guides/modifiers/intro/ModifiersIntroGuidePage'
 import NotificationsDocPage from './docs/feedback/notifications/NotificationsDocPage'
 import NumberInputDocPage from './docs/inputs/numberInput/NumberInputDocPage'
+import NumberRangeInputDocPage from './docs/inputs/numberRangeInput/NumberRangeInputDocPage'
+import OverflowGuidePage from './guides/modifiers/overflow/OverflowGuidePage'
 import PaginationDocPage from './docs/table/pagination/PaginationDocPage'
 import ParallaxHeaderDocPage from './docs/animations/parallaxHeader/ParallaxHeaderDocPage'
+import PasswordInputDocPage from './docs/inputs/passwordInput/PasswordInputDocPage'
 import PickerDocPage from './docs/inputs/picker/PickerDocPage'
 import PopoverDocPage from './docs/structure/popover/PopoverDocPage'
+import PopoverFilterItemDocPage from './docs/filter/popoverFilterItem/PopoverFilterItemDocPage'
+import PositionGuidePage from './guides/modifiers/position/PositionGuidePage'
+import ProgressDocPage from './docs/presentation/progress/ProgressDocPage'
 import RadioDocPage from './docs/inputs/radio/RadioDocPage'
 import RateDocPage from './docs/presentation/rate/RateDocPage'
 import RateInputDocPage from './docs/inputs/rateInput/RateInputDocPage'
@@ -69,18 +81,16 @@ import ResponsiveRenderDocPage from './docs/helpers/responsiveRender/ResponsiveR
 import ResultBarDocPage from './docs/presentation/resultBar/ResultBarDocPage'
 import ResultDocPage from './docs/presentation/result/ResultDocPage'
 import ScrollViewDocPage from './docs/list/scrollView/ScrollViewDocPage'
+import SearchInputDocPage from './docs/filter/searchInput/SearchInputDocPage'
 import SectionDocPage from './docs/structure/section/SectionDocPage'
 import SegmentedPickerDocPage from './docs/inputs/segmentedPicker/SegmentedPickerDocPage'
 import SelectDocPage from './docs/inputs/select/SelectDocPage'
+import ShadowGuidePage from './guides/modifiers/shadow/ShadowGuidePage'
 import SizeGuidePage from './guides/modifiers/size/SizeGuidePage'
 import SpacingGuidePage from './guides/modifiers/spacing/SpacingGuidePage'
 import StatePresenterDocPage from './docs/state/statePresenter/StatePresenterDocPage'
+import StepsDocPage from './docs/structure/steps/StepsDocPage'
 import StorageIntroGuidePage from './guides/storage/intro/StorageIntroGuidePage'
-import BackgroundGuidePage from './guides/modifiers/background/BackgroundGuidePage'
-import BorderGuidePage from './guides/modifiers/border/BorderGuidePage'
-import ShadowGuidePage from './guides/modifiers/shadow/ShadowGuidePage'
-import PositionGuidePage from './guides/modifiers/position/PositionGuidePage'
-import OverflowGuidePage from './guides/modifiers/overflow/OverflowGuidePage'
 import SubmitButtonDocPage from './docs/form/submitButton/SubmitButtonDocPage'
 import SwitchDocPage from './docs/inputs/switch/SwitchDocPage'
 import TableDocPage from './docs/table/table/TableDocPage'
@@ -94,6 +104,8 @@ import ThemePickerGuidePage from './guides/theme/picker/ThemePickerGuidePage'
 import ThemeStatusBarGuidePage from './guides/theme/statusBar/ThemeStatusBarGuidePage'
 import TooltipDocPage from './docs/presentation/tooltip/TooltipDocPage'
 import TopBarDocPage from './docs/structure/topBar/TopBarDocPage'
+import UploadDocPage from './docs/inputs/upload/UploadDocPage'
+import UploadInputDocPage from './docs/inputs/uploadInput/UploadInputDocPage'
 import ValidationRulesDocPage from './docs/form/validationRules/ValidationRulesDocPage'
 import VerticalTextDocPage from './docs/text/verticalText/VerticalTextDocPage'
 import VerticalViewDocPage from './docs/helpers/verticalView/VerticalViewDocPage'
@@ -141,6 +153,7 @@ export default function AppRoutes() {
           <Route path="popover" element={<PopoverDocPage />} />
           <Route path="accordion" element={<AccordionDocPage />} />
           <Route path="tabs" element={<TabsDocPage />} />
+          <Route path="steps" element={<StepsDocPage />} />
           <Route path="topBar" element={<TopBarDocPage />} />
           <Route path="section" element={<SectionDocPage />} />
           // Modals
@@ -167,6 +180,8 @@ export default function AppRoutes() {
           // Inputs
           <Route path="textInput" element={<TextInputDocPage />} />
           <Route path="numberInput" element={<NumberInputDocPage />} />
+          <Route path="numberRangeInput" element={<NumberRangeInputDocPage />} />
+          <Route path="passwordInput" element={<PasswordInputDocPage />} />
           <Route path="maskInput" element={<MaskInputDocPage />} />
           <Route path="rateInput" element={<RateInputDocPage />} />
           <Route path="checkbox" element={<CheckboxDocPage />} />
@@ -176,16 +191,21 @@ export default function AppRoutes() {
           <Route path="picker" element={<PickerDocPage />} />
           <Route path="dateInput" element={<DateInputDocPage />} />
           <Route path="datePicker" element={<DatePickerDocPage />} />
+          <Route path="editable" element={<EditableDocPage />} />
           <Route path="segmentedPicker" element={<SegmentedPickerDocPage />} />
           <Route path="linkInput" element={<LinkInputDocPage />} />
+          <Route path="upload" element={<UploadDocPage />} />
+          <Route path="uploadInput" element={<UploadInputDocPage />} />
           // Presentation
           <Route path="tag" element={<TagDocPage />} />
           <Route path="badge" element={<BadgeDocPage />} />
           <Route path="icon" element={<IconDocPage />} />
           <Route path="iconLabel" element={<IconLabelDocPage />} />
           <Route path="labelValue" element={<LabelValueDocPage />} />
+          <Route path="progress" element={<ProgressDocPage />} />
           <Route path="avatar" element={<AvatarDocPage />} />
           <Route path="avatarLabel" element={<AvatarLabelDocPage />} />
+          <Route path="avatarsGroup" element={<AvatarsGroupDocPage />} />
           <Route path="rate" element={<RateDocPage />} />
           <Route path="rateTag" element={<RateTagDocPage />} />
           <Route path="result" element={<ResultDocPage />} />
@@ -196,6 +216,11 @@ export default function AppRoutes() {
           // Typography
           <Route path="text" element={<TextDocPage />} />
           <Route path="verticalText" element={<VerticalTextDocPage />} />
+          // Filter
+          <Route path="filterHandler" element={<FilterHandlerDocPage />} />
+          <Route path="filterItem" element={<FilterItemDocPage />} />
+          <Route path="popoverFilterItem" element={<PopoverFilterItemDocPage />} />
+          <Route path="searchInput" element={<SearchInputDocPage />} />
           // Table
           <Route path="table" element={<TableDocPage />} />
           <Route path="pagination" element={<PaginationDocPage />} />

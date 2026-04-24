@@ -2,12 +2,12 @@
   "version": "v1",
   "packages": {
     "@neko-os/charts": {
-      "signature": "753b4f2840fb1f821b437ce3e41a00bc",
+      "signature": "f2e2df5d1388778c6025bc2fb91c12e3",
       "link": true,
       "replaced": "^0.0.10"
     },
     "@neko-os/ui": {
-      "signature": "c1fb48cabe3202938d19abbd0baf8cb4",
+      "signature": "efa94801cb172c1dbfb4df026f6e1352",
       "link": true,
       "replaced": "^0.2.2"
     }

@@ -3,15 +3,19 @@ import { Divider, Text, View } from '@neko-os/ui'
 import SampleCodeBlock from '../../../../../components/code/SampleCodeBlock'
 
 const CODE = `
-import { Icon } from '@neko-os/ui'
+import { Divider } from '@neko-os/ui'
 
 <Divider vertical />
 <Divider vertical line />
 `
 
 const CONTENT = (
-  <View center>
-    <Text red>TODO</Text>
+  <View row center gap="md" fullH>
+    <Text>Left</Text>
+    <Divider vertical />
+    <Text>Center</Text>
+    <Divider vertical line />
+    <Text>Right</Text>
   </View>
 )
 

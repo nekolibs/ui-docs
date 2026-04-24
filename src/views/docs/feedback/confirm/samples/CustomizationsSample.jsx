@@ -3,9 +3,9 @@ import { Button, View, useConfirmer, useNotifier } from '@neko-os/ui'
 import SampleCodeBlock from '../../../../../components/code/SampleCodeBlock'
 
 const CODE = `
-import { useAlerts } from '@neko-os/ui'
+import { useConfirmer } from '@neko-os/ui'
 
-const alerter = useAlerter()
+const confirmer = useConfirmer()
 
 // Receives the same props as Result
 confirmer.confirm({
