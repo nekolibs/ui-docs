@@ -10,7 +10,6 @@ function ThemeToggle() {
     activeThemeKey,      // Current theme key (e.g., 'light', 'dark')
     onChangeTheme,       // Change to a specific theme
     toggleTheme,         // Toggle between 'light' and 'dark'
-    themes,              // All available themes
     openThemePicker,     // Open the theme picker drawer
   } = useThemeHandler()
 

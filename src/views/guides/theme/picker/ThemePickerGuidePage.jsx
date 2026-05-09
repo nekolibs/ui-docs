@@ -2,6 +2,7 @@ import { Text, View } from '@neko-os/ui'
 
 import ChangeThemeSection from './sections/ChangeThemeSection'
 import PersistingThemeSection from './sections/PersistingThemeSection'
+import UseAllThemesSection from './sections/UseAllThemesSection'
 import UseThemeHandlerSection from './sections/UseThemeHandlerSection'
 
 export default function Page() {
@@ -10,6 +11,7 @@ export default function Page() {
       <Text h1>Changing Theme</Text>
 
       <UseThemeHandlerSection />
+      <UseAllThemesSection />
       <ChangeThemeSection />
       <PersistingThemeSection />
     </View>

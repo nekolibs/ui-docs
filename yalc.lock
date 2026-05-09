@@ -7,9 +7,9 @@
       "replaced": "^0.0.10"
     },
     "@neko-os/ui": {
-      "signature": "efa94801cb172c1dbfb4df026f6e1352",
+      "signature": "a1e926a6c6a1e50b48fc31c9c09f7b13",
       "link": true,
-      "replaced": "^0.2.2"
+      "replaced": "^0.4.0"
     }
   }
 }

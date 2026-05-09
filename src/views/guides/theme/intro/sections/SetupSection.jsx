@@ -14,6 +14,17 @@ function App() {
 }
 `
 
+const FILTERING_CODE = `
+// Only allow specific themes
+<NekoUI enableOnlyThemes={['light', 'dark']}>
+
+// Remove specific default themes
+<NekoUI disableDefaultThemes={['hacker', 'solarized']}>
+
+// Remove all defaults, keep only your custom themes
+<NekoUI disableDefaultThemes themes={myThemes}>
+`
+
 export default function Section() {
   return (
     <View gap="md">
@@ -23,6 +34,14 @@ export default function Section() {
         the initial theme key.
       </Text>
       <CodeBlock code={CODE} />
+      <View gap="md">
+        <Text h4>Filtering Themes</Text>
+        <Text text3>
+          Use disableDefaultThemes or enableOnlyThemes to control which themes are available in ThemePicker and
+          useAllThemes.
+        </Text>
+        <CodeBlock code={FILTERING_CODE} />
+      </View>
     </View>
   )
 }

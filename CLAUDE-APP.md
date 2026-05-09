@@ -286,7 +286,17 @@ const { activeThemeKey, onChangeTheme, toggleTheme } = useThemeHandler()
 ### Theme Picker
 ```jsx
 <ThemePicker />
-<ThemePicker onlyKeys={['light', 'dark']} />
+
+// Filter available themes via provider props
+<NekoUI enableOnlyThemes={['light', 'dark']}>
+<NekoUI disableDefaultThemes={['hacker', 'solarized']}>
+<NekoUI disableDefaultThemes themes={myThemes}>
+```
+
+### useAllThemes
+```jsx
+const allThemes = useAllThemes()
+// Returns merged default + custom themes, filtered by provider props
 ```
 
 ### Access Theme Values

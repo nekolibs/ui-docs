@@ -4,6 +4,7 @@ import BasicUsageSample from './samples/BasicUsageSample'
 import DisableGestureCloseSample from './samples/DisableGestureCloseSample'
 import DrawerFlatListSample from './samples/DrawerFlatListSample'
 import DrawerScrollViewSample from './samples/DrawerScrollViewSample'
+import KeyboardBehaviorSample from './samples/KeyboardBehaviorSample'
 import NestedSample from './samples/NestedSample'
 import ScrollSample from './samples/ScrollSample'
 
@@ -19,6 +20,7 @@ export default function DocPage() {
 
       <BasicUsageSample />
       <DisableGestureCloseSample />
+      <KeyboardBehaviorSample />
       <ScrollSample />
       <NestedSample />
 
