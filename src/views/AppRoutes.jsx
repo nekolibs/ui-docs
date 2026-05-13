@@ -16,6 +16,7 @@ import BorderGuidePage from './guides/modifiers/border/BorderGuidePage'
 import BottomDrawerDocPage from './docs/modals/bottomDrawer/BottomDrawerDocPage'
 import BreadcrumbDocPage from './docs/actions/breadcrumb/BreadcrumbDocPage'
 import ButtonDocPage from './docs/actions/button/ButtonDocPage'
+import CarouselDocPage from './docs/structure/carousel/CarouselDocPage'
 import CardDocPage from './docs/structure/card/CardDocPage'
 import CheckboxDocPage from './docs/inputs/checkbox/CheckboxDocPage'
 import ConfirmDocPage from './docs/feedback/confirm/ConfirmDocPage'
@@ -145,6 +146,7 @@ export default function AppRoutes() {
           <Route path="" element={<div />} />
           // Structure
           <Route path="layout" element={<LayoutDocPage />} />
+          <Route path="carousel" element={<CarouselDocPage />} />
           <Route path="card" element={<CardDocPage />} />
           <Route path="view" element={<ViewDocPage />} />
           <Route path="gradientView" element={<GradientViewDocPage />} />

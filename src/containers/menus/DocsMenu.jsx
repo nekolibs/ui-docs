@@ -6,6 +6,7 @@ const SECTIONS = [
   { label: 'Accordion', key: 'accordion' },
   { label: 'BlurView', key: 'blurView' },
   { label: 'Card', key: 'card' },
+  { label: 'Carousel', key: 'carousel' },
   { label: 'GradientView', key: 'gradientView' },
   { label: 'Grid', key: 'grid' },
   { label: 'Layout', key: 'layout' },
