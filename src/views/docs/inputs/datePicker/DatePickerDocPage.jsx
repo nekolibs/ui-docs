@@ -1,5 +1,6 @@
 import { Text, View } from '@neko-os/ui'
 
+import AllowClearSample from './samples/AllowClearSample'
 import BasicUsageSample from './samples/BasicUsageSample'
 import MinMaxSample from './samples/MinMaxSample'
 import MonthSample from './samples/MonthSample'
@@ -18,6 +19,7 @@ export default function DocPage() {
       <MonthSample />
       <QuarterSample />
       <YearSample />
+      <AllowClearSample />
       <MinMaxSample />
       <OnCheckDisabledSample />
     </View>
