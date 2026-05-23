@@ -55,6 +55,7 @@ const SECTIONS = [
   { label: 'NumberInput', key: 'numberInput' },
   { label: 'NumberRangeInput', key: 'numberRangeInput' },
   { label: 'PasswordInput', key: 'passwordInput' },
+  { label: 'PeriodNavBar', key: 'periodNavBar' },
   { label: 'Picker', key: 'picker' },
   { label: 'Radio', key: 'radio' },
   { label: 'RateInput', key: 'rateInput' },

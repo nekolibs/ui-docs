@@ -23,6 +23,7 @@ import ConfirmDocPage from './docs/feedback/confirm/ConfirmDocPage'
 import CustomThemesGuidePage from './guides/theme/customThemes/CustomThemesGuidePage'
 import DateInputDocPage from './docs/inputs/dateInput/DateInputDocPage'
 import DatePickerDocPage from './docs/inputs/datePicker/DatePickerDocPage'
+import PeriodNavBarDocPage from './docs/inputs/periodNavBar/PeriodNavBarDocPage'
 import DividerDocPage from './docs/helpers/divider/DividerDocPage'
 import DocsLayout from '../containers/layouts/DocsLayout'
 import DrawerDocPage from './docs/modals/drawer/DrawerDocPage'
@@ -193,6 +194,7 @@ export default function AppRoutes() {
           <Route path="picker" element={<PickerDocPage />} />
           <Route path="dateInput" element={<DateInputDocPage />} />
           <Route path="datePicker" element={<DatePickerDocPage />} />
+          <Route path="periodNavBar" element={<PeriodNavBarDocPage />} />
           <Route path="editable" element={<EditableDocPage />} />
           <Route path="segmentedPicker" element={<SegmentedPickerDocPage />} />
           <Route path="linkInput" element={<LinkInputDocPage />} />
