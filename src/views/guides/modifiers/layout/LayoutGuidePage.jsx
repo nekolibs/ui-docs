@@ -7,7 +7,7 @@ import WrapSection from './sections/WrapSection'
 
 export default function Page() {
   return (
-    <View flex gap={45} maxWidth={1200}>
+    <View flex gap={45}>
       <Text h1>Layout Modifiers</Text>
 
       <DirectionSection />

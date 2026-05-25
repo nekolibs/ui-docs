@@ -15,7 +15,7 @@ import { Button } from '@neko-os/ui'
 `
 
 const CONTENT = (
-  <View row gap={15} flex center>
+  <View row gap="md" flex center wrap>
     <Button label="Primary" primary />
     <Button label="Primary-10" color="primary-10" />
     <Button label="Green" green />

@@ -20,5 +20,5 @@ const CONTENT = (
 )
 
 export default function Sample() {
-  return <SampleCodeBlock title="Vertical" code={CODE} content={CONTENT} bg="transparent" border />
+  return <SampleCodeBlock title="Vertical" code={CODE} content={CONTENT} border />
 }

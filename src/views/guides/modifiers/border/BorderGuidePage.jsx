@@ -6,7 +6,7 @@ import BaseBorderWidthSection from './sections/BaseBorderWidthSection'
 
 export default function Page() {
   return (
-    <View flex gap={45} maxWidth={1200}>
+    <View flex gap={45}>
       <Text h1>Border Modifier</Text>
 
       <BorderSection />

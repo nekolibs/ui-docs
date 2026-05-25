@@ -5,7 +5,7 @@ import HowItWorksSection from './sections/HowItWorksSection'
 
 export default function Page() {
   return (
-    <View flex gap={45} maxWidth={1200}>
+    <View flex gap={45}>
       <View>
         <Text h1>ThemeStatusBar</Text>
         <Text text3>
