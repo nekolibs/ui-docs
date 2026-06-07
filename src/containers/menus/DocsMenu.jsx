@@ -44,6 +44,7 @@ const SECTIONS = [
   { label: 'FormList', key: 'formList' },
   { label: 'SubmitButton', key: 'submitButton' },
   { label: 'Validation Rules', key: 'validationRules' },
+  { label: 'Form Helpers', key: 'formHelpers' },
 
   { type: 'divider', label: 'Inputs', marginT: 'xs' },
   { label: 'Checkbox', key: 'checkbox' },
@@ -106,6 +107,7 @@ const SECTIONS = [
   { type: 'divider', label: 'Helpers', marginT: 'xs' },
   { label: 'Divider', key: 'divider' },
   { label: 'LazyRender', key: 'lazyRender' },
+  { label: 'Media Helpers', key: 'mediaHelpers' },
   { label: 'ResponsiveRender', key: 'responsiveRender' },
   { label: 'VerticalView', key: 'verticalView' },
 

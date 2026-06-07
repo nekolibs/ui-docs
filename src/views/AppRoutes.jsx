@@ -37,6 +37,7 @@ import FloatingButtonDocPage from './docs/actions/floatingButton/FloatingButtonD
 import FloatingMenuDocPage from './docs/actions/floatingMenu/FloatingMenuDocPage'
 import FormDocPage from './docs/form/form/FormDocPage'
 import FormGroupDocPage from './docs/form/formGroup/FormGroupDocPage'
+import FormHelpersDocPage from './docs/form/formHelpers/FormHelpersDocPage'
 import FormItemDocPage from './docs/form/formItem/FormItemDocPage'
 import FormListDocPage from './docs/form/formList/FormListDocPage'
 import GradientViewDocPage from './docs/structure/gradientView/GradientViewDocPage'
@@ -54,6 +55,7 @@ import LabelValueDocPage from './docs/presentation/labelValue/LabelValueDocPage'
 import LayoutDocPage from './docs/structure/layout/LayoutDocPage'
 import LayoutGuidePage from './guides/modifiers/layout/LayoutGuidePage'
 import LazyRenderDocPage from './docs/helpers/lazyRender/LazyRenderDocPage'
+import MediaHelpersDocPage from './docs/helpers/media/MediaHelpersDocPage'
 import LinkDocPage from './docs/actions/link/LinkDocPage'
 import LinkInputDocPage from './docs/inputs/linkInput/LinkInputDocPage'
 import LoadingDocPage from './docs/state/loading/LoadingDocPage'
@@ -180,6 +182,7 @@ export default function AppRoutes() {
           <Route path="formList" element={<FormListDocPage />} />
           <Route path="formGroup" element={<FormGroupDocPage />} />
           <Route path="validationRules" element={<ValidationRulesDocPage />} />
+          <Route path="formHelpers" element={<FormHelpersDocPage />} />
           // Inputs
           <Route path="textInput" element={<TextInputDocPage />} />
           <Route path="numberInput" element={<NumberInputDocPage />} />
@@ -237,6 +240,7 @@ export default function AppRoutes() {
           <Route path="confirm" element={<ConfirmDocPage />} />
           // Helpers
           <Route path="divider" element={<DividerDocPage />} />
+          <Route path="mediaHelpers" element={<MediaHelpersDocPage />} />
           <Route path="responsiveRender" element={<ResponsiveRenderDocPage />} />
           <Route path="verticalView" element={<VerticalViewDocPage />} />
           <Route path="lazyRender" element={<LazyRenderDocPage />} />

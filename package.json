@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@neko-os/charts": "^0.0.10",
-    "@neko-os/ui": "^0.5.0",
+    "@neko-os/ui": "^0.5.3",
     "@remixicon/react": "^4.6.0",
     "dayjs": "1.11.18",
     "nanoid": "^5.1.5",

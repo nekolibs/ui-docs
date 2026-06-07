@@ -434,10 +434,10 @@
     react-native-svg-web "^1.0.0"
     react-native-web "^0.19.0"
 
-"@neko-os/ui@^0.5.0":
-  version "0.5.2"
-  resolved "https://registry.yarnpkg.com/@neko-os/ui/-/ui-0.5.2.tgz#d44de0f5446e04bff39f52574213874938f54228"
-  integrity sha512-rnWyrq1ER+Ujvnmr3kPnKFjgJ+QauZ7fXXgCaECPLCCqdoSQlN72cfk6SU3IfIuaGFkpzTEMx3n96QYCdDaa2A==
+"@neko-os/ui@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@neko-os/ui/-/ui-0.5.3.tgz#f19089f786568befa5728b602d4aeb812febf9c4"
+  integrity sha512-NL0U6IdW9KP5/q+/iNurVXsT5A1Pwg6KQlGAG667lC/Q/jReKKKTfuyN2+8apuDGGzPyFTFfGMlox4dWHSR1iw==
   dependencies:
     prop-types "^15.8.1"
     tinycolor2 "^1.6.0"
