@@ -2,6 +2,7 @@ import { Text, View } from '@neko-os/ui'
 
 import AllowClearSample from './samples/AllowClearSample'
 import BasicUsageSample from './samples/BasicUsageSample'
+import PresentationSample from './samples/PresentationSample'
 import FormSample from './samples/FormSample'
 import MinMaxSample from './samples/MinMaxSample'
 import OnCheckDisabledSample from './samples/OnCheckDisabledSample'
@@ -16,6 +17,7 @@ export default function DocPage() {
 
       <BasicUsageSample />
       <TypesSample />
+      <PresentationSample />
       <MinMaxSample />
       <OnCheckDisabledSample />
       <AllowClearSample />

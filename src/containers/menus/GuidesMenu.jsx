@@ -29,6 +29,10 @@ const SECTIONS = [
   { type: 'divider', label: 'Storage', marginT: 'xs' },
   { label: 'Storage', key: 'storage' },
 
+  { type: 'divider', label: 'Measurements', marginT: 'xs' },
+  { label: 'Introduction', key: 'measurements' },
+  { label: 'Conversion Helpers', key: 'measurementsHelpers' },
+
   { type: 'divider', label: 'I18n', marginT: 'xs' },
   { label: 'I18n Intro', key: 'i18n' },
   { label: 'Translate Function', key: 'i18nTranslate' },

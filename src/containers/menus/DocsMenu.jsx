@@ -55,6 +55,8 @@ const SECTIONS = [
   { label: 'MaskInput', key: 'maskInput' },
   { label: 'NumberInput', key: 'numberInput' },
   { label: 'NumberRangeInput', key: 'numberRangeInput' },
+  { label: 'NumberWheelInput (native)', key: 'numberWheelInput' },
+  { label: 'NumberWheelPicker (native)', key: 'numberWheelPicker' },
   { label: 'PasswordInput', key: 'passwordInput' },
   { label: 'PeriodNavBar', key: 'periodNavBar' },
   { label: 'Picker', key: 'picker' },
@@ -66,6 +68,7 @@ const SECTIONS = [
   { label: 'TextInput', key: 'textInput' },
   { label: 'Upload', key: 'upload' },
   { label: 'UploadInput', key: 'uploadInput' },
+  { label: 'WheelPicker (native)', key: 'wheelPicker' },
 
   { type: 'divider', label: 'Presentation', marginT: 'xs' },
   { label: 'Avatar', key: 'avatar' },
@@ -103,6 +106,12 @@ const SECTIONS = [
   { label: 'Alert', key: 'alert' },
   { label: 'Confirm', key: 'confirm' },
   { label: 'Notifications', key: 'notifications' },
+
+  { type: 'divider', label: 'Measurements', marginT: 'xs' },
+  { label: 'LengthInput', key: 'lengthInput' },
+  { label: 'LengthText', key: 'lengthText' },
+  { label: 'WeightInput', key: 'weightInput' },
+  { label: 'WeightText', key: 'weightText' },
 
   { type: 'divider', label: 'Helpers', marginT: 'xs' },
   { label: 'Divider', key: 'divider' },

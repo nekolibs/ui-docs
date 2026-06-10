@@ -55,7 +55,13 @@ import LabelValueDocPage from './docs/presentation/labelValue/LabelValueDocPage'
 import LayoutDocPage from './docs/structure/layout/LayoutDocPage'
 import LayoutGuidePage from './guides/modifiers/layout/LayoutGuidePage'
 import LazyRenderDocPage from './docs/helpers/lazyRender/LazyRenderDocPage'
+import LengthInputDocPage from './docs/measurements/lengthInput/LengthInputDocPage'
+import LengthTextDocPage from './docs/measurements/lengthText/LengthTextDocPage'
+import MeasurementsHelpersGuidePage from './guides/measurements/helpers/MeasurementsHelpersGuidePage'
+import MeasurementsIntroGuidePage from './guides/measurements/intro/MeasurementsIntroGuidePage'
 import MediaHelpersDocPage from './docs/helpers/media/MediaHelpersDocPage'
+import WeightInputDocPage from './docs/measurements/weightInput/WeightInputDocPage'
+import WeightTextDocPage from './docs/measurements/weightText/WeightTextDocPage'
 import LinkDocPage from './docs/actions/link/LinkDocPage'
 import LinkInputDocPage from './docs/inputs/linkInput/LinkInputDocPage'
 import LoadingDocPage from './docs/state/loading/LoadingDocPage'
@@ -67,6 +73,8 @@ import ModifiersIntroGuidePage from './guides/modifiers/intro/ModifiersIntroGuid
 import NotificationsDocPage from './docs/feedback/notifications/NotificationsDocPage'
 import NumberInputDocPage from './docs/inputs/numberInput/NumberInputDocPage'
 import NumberRangeInputDocPage from './docs/inputs/numberRangeInput/NumberRangeInputDocPage'
+import NumberWheelInputDocPage from './docs/inputs/numberWheelInput/NumberWheelInputDocPage'
+import NumberWheelPickerDocPage from './docs/inputs/numberWheelPicker/NumberWheelPickerDocPage'
 import OverflowGuidePage from './guides/modifiers/overflow/OverflowGuidePage'
 import PaginationDocPage from './docs/table/pagination/PaginationDocPage'
 import ParallaxHeaderDocPage from './docs/animations/parallaxHeader/ParallaxHeaderDocPage'
@@ -110,6 +118,7 @@ import TooltipDocPage from './docs/presentation/tooltip/TooltipDocPage'
 import TopBarDocPage from './docs/structure/topBar/TopBarDocPage'
 import UploadDocPage from './docs/inputs/upload/UploadDocPage'
 import UploadInputDocPage from './docs/inputs/uploadInput/UploadInputDocPage'
+import WheelPickerDocPage from './docs/inputs/wheelPicker/WheelPickerDocPage'
 import ValidationRulesDocPage from './docs/form/validationRules/ValidationRulesDocPage'
 import VerticalTextDocPage from './docs/text/verticalText/VerticalTextDocPage'
 import VerticalViewDocPage from './docs/helpers/verticalView/VerticalViewDocPage'
@@ -143,6 +152,8 @@ export default function AppRoutes() {
           <Route path="modifiersShadow" element={<ShadowGuidePage />} />
           <Route path="modifiersPosition" element={<PositionGuidePage />} />
           <Route path="modifiersOverflow" element={<OverflowGuidePage />} />
+          <Route path="measurements" element={<MeasurementsIntroGuidePage />} />
+          <Route path="measurementsHelpers" element={<MeasurementsHelpersGuidePage />} />
         </Route>
 
         <Route element={<DocsLayout />} path="docs">
@@ -203,6 +214,9 @@ export default function AppRoutes() {
           <Route path="linkInput" element={<LinkInputDocPage />} />
           <Route path="upload" element={<UploadDocPage />} />
           <Route path="uploadInput" element={<UploadInputDocPage />} />
+          <Route path="wheelPicker" element={<WheelPickerDocPage />} />
+          <Route path="numberWheelPicker" element={<NumberWheelPickerDocPage />} />
+          <Route path="numberWheelInput" element={<NumberWheelInputDocPage />} />
           // Presentation
           <Route path="tag" element={<TagDocPage />} />
           <Route path="badge" element={<BadgeDocPage />} />
@@ -238,6 +252,11 @@ export default function AppRoutes() {
           <Route path="notifications" element={<NotificationsDocPage />} />
           <Route path="alert" element={<AlertDocPage />} />
           <Route path="confirm" element={<ConfirmDocPage />} />
+          // Measurements
+          <Route path="lengthInput" element={<LengthInputDocPage />} />
+          <Route path="lengthText" element={<LengthTextDocPage />} />
+          <Route path="weightInput" element={<WeightInputDocPage />} />
+          <Route path="weightText" element={<WeightTextDocPage />} />
           // Helpers
           <Route path="divider" element={<DividerDocPage />} />
           <Route path="mediaHelpers" element={<MediaHelpersDocPage />} />
