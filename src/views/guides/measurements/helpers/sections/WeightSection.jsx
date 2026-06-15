@@ -8,21 +8,23 @@ import {
   gToOz, ozToG, gToLbs, lbsToG
 } from '@neko-os/ui'
 
+// Values are raw (unrounded) — formatters apply fixedDecimals for display
+
 // Kilograms <-> Pounds
-kgToLbs(80)     // 176.37
-lbsToKg(176.37) // 80
+kgToLbs(80)     // ≈ 176.37
+lbsToKg(176.37) // ≈ 80
 
 // Kilograms <-> Ounces
-kgToOz(0.5)     // 17.64
-ozToKg(17.64)   // 0.5
+kgToOz(0.5)     // ≈ 17.64
+ozToKg(17.64)   // ≈ 0.5
 
 // Grams <-> Ounces
-gToOz(250)      // 8.82
-ozToG(8.82)     // 250
+gToOz(250)      // ≈ 8.82
+ozToG(8.82)     // ≈ 250
 
 // Grams <-> Pounds
-gToLbs(500)     // 1.1
-lbsToG(1.1)     // 500
+gToLbs(500)     // ≈ 1.1
+lbsToG(1.1)     // ≈ 500
 
 // Handles falsy input
 kgToLbs(null)   // null
