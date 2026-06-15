@@ -102,6 +102,9 @@ import SizeGuidePage from './guides/modifiers/size/SizeGuidePage'
 import SpacingGuidePage from './guides/modifiers/spacing/SpacingGuidePage'
 import StatePresenterDocPage from './docs/state/statePresenter/StatePresenterDocPage'
 import StepsDocPage from './docs/structure/steps/StepsDocPage'
+import ReturnButtonDocPage from './docs/routing/returnButton/ReturnButtonDocPage'
+import ReturnLinkDocPage from './docs/routing/returnLink/ReturnLinkDocPage'
+import RoutedStepsContentDocPage from './docs/routing/routedStepsContent/RoutedStepsContentDocPage'
 import StorageIntroGuidePage from './guides/storage/intro/StorageIntroGuidePage'
 import SubmitButtonDocPage from './docs/form/submitButton/SubmitButtonDocPage'
 import SwitchDocPage from './docs/inputs/switch/SwitchDocPage'
@@ -172,6 +175,10 @@ export default function AppRoutes() {
           <Route path="steps" element={<StepsDocPage />} />
           <Route path="topBar" element={<TopBarDocPage />} />
           <Route path="section" element={<SectionDocPage />} />
+          // Routing
+          <Route path="returnButton" element={<ReturnButtonDocPage />} />
+          <Route path="returnLink" element={<ReturnLinkDocPage />} />
+          <Route path="routedStepsContent" element={<RoutedStepsContentDocPage />} />
           // Modals
           <Route path="modal" element={<ModalDocPage />} />
           <Route path="modalsRouter" element={<ModalsRouterDocPage />} />

@@ -17,6 +17,11 @@ const SECTIONS = [
   { label: 'TopBar', key: 'topBar' },
   { label: 'View', key: 'view' },
 
+  { type: 'divider', label: 'Routing', marginT: 'xs' },
+  { label: 'ReturnButton', key: 'returnButton' },
+  { label: 'ReturnLink', key: 'returnLink' },
+  { label: 'RoutedStepsContent', key: 'routedStepsContent' },
+
   { type: 'divider', label: 'Modals', marginT: 'xs' },
   { label: 'BottomDrawer (native)', key: 'bottomDrawer' },
   { label: 'Drawer (web)', key: 'drawer' },
