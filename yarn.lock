@@ -425,10 +425,10 @@
   dependencies:
     prop-types "^15.8.1"
 
-"@neko-os/ui@^0.6.2":
-  version "0.6.2"
-  resolved "https://registry.yarnpkg.com/@neko-os/ui/-/ui-0.6.2.tgz#e9586721c79f713133da80e0fbb49ba3b2545790"
-  integrity sha512-MqWlEPgOzakEcQ0qVJ+GXzw8wEr0C4FvtHH+Ys7IwpIaEFxVkyt7VL8EWNZsXwBtpy3AZyBPcSH20F1p8MDIsw==
+"@neko-os/ui@^0.6.3":
+  version "0.6.3"
+  resolved "https://registry.yarnpkg.com/@neko-os/ui/-/ui-0.6.3.tgz#13e5ccdf5ff038370a1046b8cf79e4a6b123ab44"
+  integrity sha512-h0wl9Bc6Ax2WBDwTcg6G5Ns4cLKNuYjIqCf/XANBl+H1vE+EWOhkUDy03Cod4s47rOWZuMVTxCRwxHbUr3yj8Q==
   dependencies:
     prop-types "^15.8.1"
     tinycolor2 "^1.6.0"
