@@ -7,7 +7,7 @@ npm install dayjs ramda @remixicon/react
 `
 
 const NATIVE_REQUIRED_CODE = `
-npm install dayjs ramda react-native-gesture-handler react-native-reanimated react-native-remix-icon react-native-safe-area-context
+npm install dayjs ramda react-native-gesture-handler react-native-reanimated react-native-remix-icon react-native-safe-area-context react-native-worklets
 `
 
 const NATIVE_OPTIONAL_CODE = `

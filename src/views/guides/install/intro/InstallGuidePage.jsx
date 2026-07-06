@@ -3,6 +3,7 @@ import { Text, View } from '@neko-os/ui'
 import InstallSection from './sections/InstallSection'
 import PeerDependenciesSection from './sections/PeerDependenciesSection'
 import SetupSection from './sections/SetupSection'
+import StylesSection from './sections/StylesSection'
 import BasicUsageSection from './sections/BasicUsageSection'
 
 export default function InstallGuidePage() {
@@ -13,6 +14,7 @@ export default function InstallGuidePage() {
       <InstallSection />
       <PeerDependenciesSection />
       <SetupSection />
+      <StylesSection />
       <BasicUsageSection />
     </View>
   )
